@@ -1,13 +1,13 @@
-[public class Сustomer {
+public class Сustomer {
 	private int ID;
 	private boolean isNew = true;
 	private double total = 1000;
 	
 public Сustomer() {
-	super();
-	this.ID = 1;
-	this.isNew = true;
-	this.total = 1000;
+		super();
+		this.ID = 1;
+    this.isNew = true;
+    this.total = 1000;
 	}
 
   public int getID() {
